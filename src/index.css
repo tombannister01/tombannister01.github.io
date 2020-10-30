@@ -12,56 +12,133 @@ code {
     monospace;
 }
 
+@media only screen and (max-width: 769px) {
+  .profile-pic {
+    height: 230px;
+    width: 200px;
+  }
+  .profile {
+    height: 700px !important;
+  }
+  .profile-social {
+    height: 100px;
+  }
+  .profile-intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .parent-container {
+    height: 800px;
+  }
+
+}
+
 .hero-div {
   /* border: 1px black solid; */
   height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  background-image: url("https://miro.medium.com/max/1024/1*bcZz-qb_DNpvrNNwQBhQmQ.jpeg");
+  /* flex-direction: column; */
+  background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/cW5lDBG/glowing-light-blue-abstract-programming-code-background-on-dark-software-or-script-development-concept_rgg0rnttyl_thumbnail-1080_01.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.hero-content {
-  border: 1px solid black;
-  height: 60vh;
-  width: 60%;
-  /* background-color: white; */
-  border-radius: 4px;
-  background-image: url("./images/aboutme.gif");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.profile-pic-div {
-  height: 12vh;
-  /* border: 1px solid black; */
-  /* display: flex; */
-  /* justify-content: space-evenly; */
-  /* align-items: center; */
-  width: 60%;
-  background-color: white;
-  border-radius: 4px;
 
+.section-box {
+  width: 100%;
+  /* border: solid 1px white; */
+  /* height: 500px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.profile {
+  width: 800px;
+  height: 450px;
+  /* border: 1px solid white; */
+  background-color: #35363b;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  border-radius: 3px;
 }
 .profile-pic {
-  /* border: 1px solid black; */
-  height: 100%;
-  width: 10%;
-  border-radius: 4px;
-  background-image: url("./images/ProfilePic.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-left: 15px;
+  margin: 35px;
+  /* margin-top: 15px; */
+  /* width: 250px; */
+  border-radius: 3px;
+  
 }
-.about-me-text {
-  /* border: 1px solid black; */
+
+.profile-social {
+  /* border: 1px solid white; */
+  width: 800px;
+  height: 100px;
+  background-color: #8dc24c;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  height: 12vh;
+  justify-content: center;
+  align-items: center;
 }
+.fa-github {
+  font-size: 35px;
+  margin: 15px;
+}
+.fa-linkedin {
+  font-size: 35px;
+  margin: 15px;
+}
+
+.junior-developer {
+  color: #d4d4d5;
+  margin: 20px;
+  margin-bottom: 60px;
+  font-size: 25px;
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 20px;
+}
+.name-intro {
+  margin-top: 35px;
+  color: #d4d4d5;
+}
+.name {
+  font-weight: bold;
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+.profile-list .title {
+  font-size: 18px;
+  float: left;
+  width: 100px;
+  margin-right: 60px;
+  margin-left: 50px;
+  text-align: start;
+  color: #d4d4d5;
+}
+.profile-list .li-item {
+  float: right;
+  font-size: 15px;
+  color: #84898e;
+}
+
+.profile-intro {
+  /* border: 1px solid white; */
+  /* height: 114%; */
+  height: 400px;;
+}
+
+ul {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
 .intro-text {
   align-self: center;
 }
@@ -73,11 +150,10 @@ code {
   font-size: 20px;
 }
 
-
 .skills-container {
   display: flex;
   /* border: 1px solid black; */
-  height: 370px;
+  height: 400px;
   width: 50%;
   /* background-color: #0a1a03; */
   font-size: 50px;
@@ -104,25 +180,6 @@ section {
   /* border-bottom: 5px solid black; */
   background-color:rgb(26, 26, 26);
 }
-
-/* .tooltip .tooltiptext {
-  top: 25%;
-  left: 46%;
-  margin-left: -60px;
-  visibility: hidden;
-  width: 70px;
-  background-color: greenyellow;
-  color: black;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-  font-size: 20px;
-  position: absolute;
-  z-index: 1;
-}
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-} */
 .project-1 {
   background-image: url("./images/Frogger.png");
   background-size: contain;
@@ -145,11 +202,11 @@ section {
   background-repeat: no-repeat;
 }
 .my-projects-title {
-  color: greenyellow;
+  color: #8dc24c;
   font-size: 25px;
 }
 .skills-title {
-  color: greenyellow;
+  color: #8dc24c;
   font-size: 40px;
 }
 figure {
@@ -164,7 +221,7 @@ figure {
   border-radius: 4px;
 }
 .skills-container-title {
-  color: greenyellow;
+  color: #8dc24c;
   font-size: 30px;
 }
 .icon-container {
