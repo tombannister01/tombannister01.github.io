@@ -30,8 +30,8 @@ const Project3 = () => {
           <div className="card-content">
             <strong> Project 3 </strong> - A Full-stack recipe app which would allow you to find new recipes or build your own.I was in a group of 4 and we had around 1 week to complete this project. We used technologies such as: Mongo, Express, React and Node.js (MERN) to create this app. I was responsible for functionalities on the Front-end such as tag selection, displaying the recipes, app routing etc. I was also involved in processes on the back-end which used a Model View Controller (MVC) approach. We worked well as a group and delegated individual/paired work to be completed throughout the day which turned out to be an efficient way of delegating the work-load.
             <br></br>
-            <small>http://nutrifix2.herokuapp.com/</small>
-        </div>
+            <small>http://nutrifix1.herokuapp.com/</small>
+          </div>
 
         </div>
         <div className="skills-container1">
